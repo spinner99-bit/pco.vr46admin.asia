@@ -145,10 +145,13 @@
 	       		</select>
 	       		<br>
 
-	       		<div class="textarea">
-					<label class="remark-label">Reason</label>
-					<textarea name="remark" id="remark"></textarea>
-				</div>
+				<label>Reason</label>
+				<input type="text" name="remark" placeholder="Reason" id="remark">
+				<br>
+
+				<label>By Who *</label>
+				<input type="text" name="by" placeholder="By Who" id="by" required>
+				<br>
 
 					<button id="submit" onclick="audio.play();" class="submit">Add</button>
 			</form>
